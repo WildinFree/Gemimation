@@ -1,0 +1,63 @@
+{
+  "fps": 30,
+  "duration": 8,
+  "takes": [
+    {
+      "id": "bell",
+      "start": 0,
+      "end": 4,
+      "keyframes": [
+        0,
+        1.03,
+        1.17,
+        3
+      ],
+      "risks": [
+        {
+          "start": 1.1,
+          "end": 1.3
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "start": 4,
+      "end": 8,
+      "keyframes": [
+        4,
+        6.8,
+        7
+      ],
+      "risks": []
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "match-blend",
+      "time": 4,
+      "duration": 0.3,
+      "anchor": 4
+    },
+    {
+      "kind": "loop",
+      "time": 8,
+      "duration": 0.3
+    }
+  ],
+  "events": [
+    {
+      "time": 1.17,
+      "label": "Bell contact and SFX",
+      "word_id": "bell_1"
+    },
+    {
+      "time": 3,
+      "label": "Harbour revealed",
+      "word_id": "harbour_1"
+    }
+  ],
+  "word_ids": [
+    "bell_1",
+    "harbour_1"
+  ]
+}
