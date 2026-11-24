@@ -5,7 +5,7 @@ description: Create visually directed vertical cartoon shorts from a supplied sc
 
 # Animated-Shorts-Gemini
 
-Turn the supplied script and recorded audio into an appealing, coherent animated video. Preserve the creative intent while choosing your own production methods. The package supplies direction, not an execution environment.
+Turn the supplied script and recorded audio into an appealing, coherent animated video. Preserve the creative intent while choosing your own production methods. The package supplies creative direction and optional executable engines, with no required installation or previous project.
 
 ## Inputs and output
 
@@ -13,7 +13,7 @@ Treat the script as the narrative source and the audio as the timing master. Pre
 
 Default to 9:16, 30 fps and a native 1440 x 2560 final picture where available. Runtime follows the supplied audio and a short purposeful tail; 55-70 seconds is typical, not a requirement to stretch or truncate the recording. Start visually at time zero. No intro, logo, outro, end card, captions, subtitles or explanatory labels. Readable text within the scene requires the user's request.
 
-Deliver the actual video with synchronized supplied audio when your tools can produce it. Check your available capabilities at the start. Use image/video generation, compositing, animation, audio or code tools as appropriate; no particular framework, renderer or installed assets are required. Prefer methods that give the best control over identity, motion and timing.
+Deliver the actual video with synchronized supplied audio when your tools can produce it. Check your available capabilities at the start. Use image/video generation, compositing, animation, audio or code tools as appropriate; no particular framework, renderer or installed assets are required. Prefer methods that give the best control over identity, motion and timing. When browser execution is available, use or adapt the included engine to avoid rebuilding its drawing and animation logic. Keep it optional when native generation offers the better result.
 
 If a required production capability is absent, state that specific limit early, continue the work you can perform and deliver the strongest usable artifact: finished clips, storyboard frames, a timed animatic, renderable animation, or exact generation/editing instructions with the cue map. Clearly distinguish these from a finished video. Never claim to have rendered, listened to, measured or inspected an artifact you could not access.
 
@@ -39,7 +39,7 @@ If a required production capability is absent, state that specific limit early, 
 | Audio-led timing, cue placement and mix | [05 Audio and timing](guides/05-audio-and-timing.md) |
 | Review coverage, acceptance and repair | [06 Quality](guides/06-quality.md) |
 
-Use all six over the production, opening only the relevant sections during individual decisions. The [reference index](references/README.md) explains the images. [Examples](examples/worked-beat.md) demonstrate how the principles become concrete direction. [Optional tools](tools/README.md) support calculations and review planning.
+Use all six over the production, opening only the relevant sections during individual decisions. The [reference index](references/README.md) explains the images. [Examples](examples/worked-beat.md) demonstrate how the principles become concrete direction. [Optional tools](tools/README.md) support calculations and review planning. [Optional engines](code/README.md) preserve executable drawing, acting, camera, scene and image-effect code, with self-contained browser builds. Read their API map before opening individual source modules.
 
 ## Production sequence
 

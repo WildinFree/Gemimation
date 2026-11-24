@@ -40,3 +40,7 @@ All times must be finite, in range and in seconds. Repeated word text receives d
 ## Limits
 
 These helpers only catch timing/plan structure and arithmetic errors. A valid plan can still have poor staging, broken characters or bad synchronization. Review the actual picture and recording using [06 Quality](../guides/06-quality.md).
+
+## Image and video checks
+
+The [optional quality tools](quality/README.md) preserve contact sheets, picture/motion diagnostics and encoded-video analysis. Use only the capabilities already present in the execution environment. The [browser engines](../code/README.md) provide character drawing, 3D scenes and optional capture.
